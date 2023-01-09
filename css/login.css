@@ -1,12 +1,15 @@
 body{
     background:linear-gradient(360deg,#111133, #114455);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: auto;
+    margin: 0;
 }
 
 #logInForm{
-    margin-top: 30%;
-    margin-bottom: 20%;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin: 15%;
     padding-left: 10%;
     padding-right: 10%;
     background:linear-gradient(#55ab88,#116766);
@@ -18,13 +21,12 @@ body{
 }
 
 label {
+
     text-align: right;
 }
 
 .lab{
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 15%;
 }
 
 #subBut{
@@ -39,4 +41,5 @@ img{
     margin-top: 5%;
     align-items: center;
     margin-bottom: 10%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0,0,0,0.3);   
 }
