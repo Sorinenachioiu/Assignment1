@@ -21,12 +21,12 @@ body{
 }
 
 label {
-
     text-align: right;
 }
 
 .lab{
     text-align: center;
+    text-size-adjust:;
 }
 
 #subBut{
