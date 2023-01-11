@@ -13,6 +13,7 @@ body{
     margin: 15%;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 5%;
     background:linear-gradient(#55ab88,#116766);
     width: 50%;
     height: 100%;
@@ -22,7 +23,7 @@ body{
 }
 
 label {
-    text-align: right;
+    text-align: center;
     tab-size: 4;
 }
 
@@ -32,13 +33,15 @@ label {
 }
 
 #subBut{
+    border-style:hidden;
     margin-top: 5%;
     margin-bottom: 5%;
     background: linear-gradient(360deg, #116766, #55ab88);
-    color: white;
+    color: rgb(251, 235, 235);
     font-size: 16px;
     padding: 10px;
     border-radius: 15%;
+    box-shadow: 0 10px 20px rgba(161, 161, 161, 0.2), 0 6px 6px rgba(0,0,0,0.3);
 }
 #subBut:hover {
     background-color: darkblue;
@@ -54,6 +57,23 @@ label {
     border-bottom: 2px solid;
     border-color: #55ab88;
     color: white;
+}
+
+.signUp{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5%;
+    width: 30%;
+    background: linear-gradient(360deg, #116766, #55ab88);
+    box-shadow: 0 10px 20px rgba(161, 161, 161, 0.2), 0 6px 6px rgba(0,0,0,0.3);
+}
+
+.ref{
+    text-decoration: none;
+    color: rgb(251, 235, 235);
 }
 /*
 #111133 
