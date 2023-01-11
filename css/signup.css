@@ -53,3 +53,21 @@ img{
     background-color: black;
 }
 
+.input_box{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: #55ab88;
+    color: white;
+    width: 100%;
+}
+
+label {
+    text-align: center;
+    tab-size: 4;
+}
+
+.lab{
+    text-align: center;
+    color: rgb(251, 235, 235);
+}

@@ -66,7 +66,8 @@ label {
     font-size: 16px;
     padding: 10px;
     border-radius: 5%;
-    width: 30%;
+    width: 50%;
+    margin-left: 20%;
     background: linear-gradient(360deg, #116766, #55ab88);
     box-shadow: 0 10px 20px rgba(161, 161, 161, 0.2), 0 6px 6px rgba(0,0,0,0.3);
 }
@@ -89,7 +90,6 @@ label {
     bottom: 0;
     width: 0%;
     height: 2px;
-    background: linear-gradient();
     transition: width 0.2s ease;
 }
 
