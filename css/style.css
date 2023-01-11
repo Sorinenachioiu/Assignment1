@@ -33,7 +33,7 @@ img:hover{
     display: flex;
 }
 .header {
-    background-color: rgb(102, 98, 98);
+    background-color: rgba(11, 6, 44, 0.699);
     color: #FFF;
     display: flex;
     flex-direction:row;
