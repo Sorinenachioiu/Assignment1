@@ -3,19 +3,17 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 100%;
-    width: auto;
     margin: 0;
     font-size: 4.5vw;
 }
 
 #logInForm{
-    margin: 15%;
+    margin: auto;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
     background:linear-gradient(#55ab88,#116766);
-    width: 50%;
+    width: 300px;
     height: 100%;
     text-align: center;
     border-radius: 6%;
@@ -36,9 +34,9 @@ label {
     border-style:hidden;
     margin-top: 5%;
     margin-bottom: 5%;
+    font-size: 16px;
     background: linear-gradient(360deg, #116766, #55ab88);
     color: rgb(251, 235, 235);
-    font-size: 16px;
     padding: 10px;
     border-radius: 15%;
     box-shadow: 0 10px 20px rgba(161, 161, 161, 0.2), 0 6px 6px rgba(0,0,0,0.3);
@@ -57,20 +55,20 @@ label {
     border-bottom: 2px solid;
     border-color: #55ab88;
     color: white;
+    width: 100%;
 }
 
 .signUp{
     margin-top: 5%;
     margin-bottom: 5%;
     color: white;
-    font-size: 16px;
     padding: 10px;
     border-radius: 5%;
-    width: 50%;
-    margin-left: 20%;
+    
     background: linear-gradient(360deg, #116766, #55ab88);
     box-shadow: 0 10px 20px rgba(161, 161, 161, 0.2), 0 6px 6px rgba(0,0,0,0.3);
 }
+
 
 .ref{
     text-decoration: none;
