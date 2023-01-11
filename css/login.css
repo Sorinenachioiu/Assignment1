@@ -6,12 +6,14 @@ body{
     height: 100%;
     width: auto;
     margin: 0;
+    font-size: 4.5vw;
 }
 
 #logInForm{
     margin: 15%;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 5%;
     background:linear-gradient(#55ab88,#116766);
     width: 50%;
     height: 100%;
@@ -21,17 +23,74 @@ body{
 }
 
 label {
-
-    text-align: right;
+    text-align: center;
+    tab-size: 4;
 }
 
 .lab{
     text-align: center;
+    color: rgb(251, 235, 235);
 }
 
 #subBut{
+    border-style:hidden;
     margin-top: 5%;
     margin-bottom: 5%;
+    background: linear-gradient(360deg, #116766, #55ab88);
+    color: rgb(251, 235, 235);
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 15%;
+    box-shadow: 0 10px 20px rgba(161, 161, 161, 0.2), 0 6px 6px rgba(0,0,0,0.3);
+}
+#subBut:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
+#subBut:active {
+    background-color: black;
+}
+
+.input_box{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: #55ab88;
+    color: white;
+}
+
+.signUp{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5%;
+    width: 30%;
+    background: linear-gradient(360deg, #116766, #55ab88);
+    box-shadow: 0 10px 20px rgba(161, 161, 161, 0.2), 0 6px 6px rgba(0,0,0,0.3);
+}
+
+.ref{
+    text-decoration: none;
+    color: rgb(251, 235, 235);
+}
+/*
+#111133 
+#114455
+#116766
+#348878
+#55ab88
+*/
+.input_box::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient();
+    transition: width 0.2s ease;
 }
 
 img{
