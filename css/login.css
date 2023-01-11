@@ -6,6 +6,7 @@ body{
     height: 100%;
     width: auto;
     margin: 0;
+    font-size: 4.5vw;
 }
 
 #logInForm{
@@ -22,16 +23,54 @@ body{
 
 label {
     text-align: right;
+    tab-size: 4;
 }
 
 .lab{
     text-align: center;
-    text-size-adjust:;
+    color: rgb(251, 235, 235);
 }
 
 #subBut{
     margin-top: 5%;
     margin-bottom: 5%;
+    background: linear-gradient(360deg, #116766, #55ab88);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 15%;
+}
+#subBut:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
+#subBut:active {
+    background-color: black;
+}
+
+.input_box{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: #55ab88;
+    color: white;
+}
+/*
+#111133 
+#114455
+#116766
+#348878
+#55ab88
+*/
+.input_box::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient();
+    transition: width 0.2s ease;
 }
 
 img{
