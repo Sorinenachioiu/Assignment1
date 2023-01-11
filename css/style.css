@@ -13,7 +13,7 @@
   color: #c5cae9;
   transform:scale(1.05);
 }
-img:hover{
+.header img:hover{
     transform: rotate(360deg);
     transition-duration: .8s;
 }
@@ -45,6 +45,11 @@ img:hover{
     margin: 0;
     padding: 0;
   }
+  .header img{
+    border-radius: 20%;
+    padding: 1%;
+    width: 14%;
+  }
   body{
     background:linear-gradient(360deg,#111133, #114455);
     background-repeat: no-repeat;
@@ -54,9 +59,22 @@ img:hover{
     width: auto;
     margin: 0;
   }
-  img{
-    border-radius: 20%;
-    padding: 1%;
-    height:8ex;
-    
+  .result-map img{
+    width: 70%;
+    margin-left: 20%;
+    border-radius: 3%;
+  }
+  #search-form{
+    background-color: #114455;
+    color: #FFF;
+  }
+  .drop-down-cars{
+    background-color: #55ab89bb;
+    border-top-left-radius:3%;
+    border-top-right-radius: 3%;
+    height:500px;
+  }
+  .drop-down-cars li{
+    color: #FFF;
+    list-style: none;
   }
