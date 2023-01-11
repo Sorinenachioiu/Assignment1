@@ -1,5 +1,4 @@
 .navbar{
-    background-color: rgb(50, 44, 63);
     height:fit-content;
 }
 
@@ -20,6 +19,10 @@ img:hover{
     transform: rotate(360deg);
     transition-duration: .8s;
 }
+.nav a{
+  color:#75d9b1;
+}
+
 .nav {
     flex:1 1 auto;
   list-style: none;
@@ -33,8 +36,9 @@ img:hover{
     display: flex;
 }
 .header {
-    background-color: rgba(11, 6, 44, 0.699);
-    color: #FFF;
+    background: linear-gradient(180deg, black, rgba(0, 0, 0, 0.178));
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0,0,0,0.25);
+    color: #55ab88;
     display: flex;
     flex-direction:row;
     justify-content:space-evenly;
