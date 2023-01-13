@@ -1,5 +1,4 @@
-
-  body{
+body{
     background:linear-gradient(360deg,#111133, #114455);
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,7 +6,7 @@
     height: 100%;
     width: auto;
     margin: 0;
-  }
+}
 
 nav a {
   text-decoration: none;
@@ -25,6 +24,7 @@ nav a {
     transform: rotate(360deg);
     transition-duration: .8s;
 }
+
 .nav a{
   color:#75d9b1;
 }
