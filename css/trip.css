@@ -18,7 +18,7 @@
 }
 
 ul{
-    
+    list-style-type: none;
 }
 ul li{
     padding-left: 30px; /* adds more padding to the left */
