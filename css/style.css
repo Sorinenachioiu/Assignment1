@@ -1,4 +1,14 @@
 
+  body{
+    background:linear-gradient(360deg,#111133, #114455);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: auto;
+    margin: 0;
+  }
+
 nav a {
   text-decoration: none;
   display: block;
@@ -31,7 +41,7 @@ nav a {
     display: flex;
 }
 .header {
-    background: linear-gradient(180deg, black, rgba(0, 0, 0, 0.178));
+    background: linear-gradient(180deg, black, #114455);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0,0,0,0.25);
     color: #55ab88;
     display: flex;
@@ -39,23 +49,15 @@ nav a {
     justify-content:space-evenly;
     align-items: center;
     flex-wrap:wrap;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    top: 0;
+    opacity: 0.95;
     position: sticky;
   }
   .header img{
     border-radius: 20%;
     padding: 1%;
     width: 14%;
-  }
-  body{
-    background:linear-gradient(360deg,#111133, #114455);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
-    width: auto;
-    margin: 0;
   }
   .result-map img{
     width: 70%;
