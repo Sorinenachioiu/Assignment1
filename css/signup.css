@@ -6,14 +6,13 @@ body{
     height: 100%;
     width: auto;
     margin: 0;
-    font-size: 3vw;
+    font-size: 2rem;
 }
-
 
 #signUpForm{
     margin: auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 5%;
     background:linear-gradient(#55ab88,#116766);
     width: 500px;
@@ -23,6 +22,12 @@ body{
     box-shadow: 0 10px 20px rgba(161, 161, 161, 0.3), 0 6px 6px rgba(0,0,0,0.3);
 }
 
+#signUpForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 
 img{
     width: 40%;
@@ -38,7 +43,7 @@ img{
     border-style:hidden;
     margin-top: 5%;
     margin-bottom: 5%;
-    font-size: 16px;
+    font-size: 1.6rem;
     background: linear-gradient(360deg, #116766, #55ab88);
     color: rgb(251, 235, 235);
     padding: 10px;
@@ -54,7 +59,7 @@ img{
 }
 
 .input_box{
-    background-color: transparent;
+    outline: 0;
     border: none;
     border-bottom: 2px solid;
     border-color: #55ab88;
@@ -62,6 +67,7 @@ img{
     width: 100%;
     padding: 3%;
     font-size: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 label {
