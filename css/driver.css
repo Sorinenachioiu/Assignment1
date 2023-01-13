@@ -1,26 +1,19 @@
-.flex-container {
-    display: flex;
-    margin-bottom: 2%;
-    
+#buttons{
+    background-color: lightblue;
+    display: block;
+    height: 10vh;
+    width: 50vh;
+    font-size: 5vh;
+    border-radius: 10%;
+    text-align: center;
 }
-
-.flex-child {
+form{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    gap: 6vh;
+}
+form a{
+    text-decoration: none;
     color: #114455;
-    background-color: #55ab88;
-    flex: 1;
-    border: 2px solid white;
-}  
-
-.flex-child:first-child {
-    margin-right: 20px;
-}
-
-.driver-box{
-    background-color: cyan;
-    margin-bottom: 5%;
-    text-align-last: center;
-    border: 1px groove gray;
-}
-body{
-    background-color:#111133 ;
 }
