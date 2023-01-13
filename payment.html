@@ -5,13 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/payment.css">
-    <title>Please enter your credit card details...</title>
+    <title>Payment</title>
 </head>
 <body>
-    Card number: <br>  <input type="text"></input> <br>
-    Expiration date: <br> <input type="datetime"></input> <br>
-    CVV/CVV2: <br> <input type="text"></input> <br>
-    Cardholder Name: <br> <input type="text"></input> <br>
-    <button>Submit</button>
+    <div id="paymentForm">
+        <form  action="index.html">
+            <td><img src="images/logo.jpeg" alt="Tahir Abbas profile picture"></td>
+            <label class="lab" for=""> <center> Cardholder Name: </center></label> 
+            <input class="input_box" type="text" name="cardholderName"> 
+            <label class="lab" for=""> <center>Card Number: </center></label> 
+            <input class="input_box" type="number" name="cardNumber"> 
+            <label class="lab" for="">CVV: </label> 
+            <input class="input_box" type="number" name="CVV" />
+            <label class="lab" for="">MM/YY: </label> 
+            <input class="input_box" type="datetime" name="CVV" />
+            <label class="lab" for="">Billing Address: </label> 
+            <input class="input_box" type="text" name="billAddress" />
+            <input id="subButSignUp" type="submit" value="Pay" href="index.html" />
+        </form>
+    </div>
 </body>
 </html>
