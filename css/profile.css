@@ -24,7 +24,8 @@
     margin: 2%;
 }
 #recent-trips ul li:hover{
-  transform: scale(1.1);
+  transform: scale(1.15);
+  margin-left: 8%;
   color: lightskyblue;
 }
 #recent-trips label{
