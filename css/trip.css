@@ -1,7 +1,8 @@
 #reserveTrip{
     border-style:hidden;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 30px;
     font-size: 16px;
     background: linear-gradient(360deg, #116766, #55ab88);
     color: rgb(251, 235, 235);
@@ -9,10 +10,12 @@
     border-radius: 15%;
     box-shadow: 0 10px 20px rgba(161, 161, 161, 0.2), 0 6px 6px rgba(0,0,0,0.3);
 }
+
 #reserveTrip:hover {
     background-color: darkblue;
     cursor: pointer;
 }
+
 #reserveTrip:active {
     background-color: black;
 }
@@ -20,10 +23,23 @@
 ul{
     list-style-type: none;
 }
+
 ul li{
     padding-left: 30px; /* adds more padding to the left */
     margin: 20px 0; /* adds margin to the top and bottom of the list */
+    font-size: 20px;
 }
+
+ul li{
+    color:
+#55ab89;
+}
+
+ul li div{
+    color:rgb(251, 235, 235);
+    margin: 30px;
+}
+
 body{
     color: rgb(251, 235, 235);
 }

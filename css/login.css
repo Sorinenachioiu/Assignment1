@@ -50,12 +50,16 @@ label {
 }
 
 .input_box{
-    background-color: transparent;
+    
+    outline: 0;
     border: none;
     border-bottom: 2px solid;
     border-color: #55ab88;
     color: white;
     width: 100%;
+    padding: 3%;
+    font-size: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .signUp{
