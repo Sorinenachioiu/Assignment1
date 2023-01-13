@@ -17,6 +17,14 @@
     background-color: black;
 }
 
+ul{
+    
+}
+ul li{
+    padding-left: 30px; /* adds more padding to the left */
+    margin: 20px 0; /* adds margin to the top and bottom of the list */
+}
 body{
     color: rgb(251, 235, 235);
 }
+
