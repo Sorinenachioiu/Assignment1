@@ -37,6 +37,18 @@ body{
   transition-duration: .8s;
 }
 
+@media(max-width:935px) {
+  .nav a{
+    font-size: 3vw;
+  }
+}
+
+@media(min-width:936px) {
+  .nav a{
+    font-size: 2vw;
+  }
+}
+
 nav a {
   text-decoration: none;
   display: block;

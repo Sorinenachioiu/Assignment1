@@ -1,0 +1,22 @@
+#reserveTrip{
+    border-style:hidden;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 16px;
+    background: linear-gradient(360deg, #116766, #55ab88);
+    color: rgb(251, 235, 235);
+    padding: 10px;
+    border-radius: 15%;
+    box-shadow: 0 10px 20px rgba(161, 161, 161, 0.2), 0 6px 6px rgba(0,0,0,0.3);
+}
+#reserveTrip:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
+#reserveTrip:active {
+    background-color: black;
+}
+
+body{
+    color: rgb(251, 235, 235);
+}
