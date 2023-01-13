@@ -38,13 +38,13 @@ body{
 }
 
 @media(max-width:935px) {
-  .nav a{
+  .nav a,label{
     font-size: 3vw;
   }
 }
 
 @media(min-width:936px) {
-  .nav a{
+  .nav a,label{
     font-size: 2vw;
   }
 }

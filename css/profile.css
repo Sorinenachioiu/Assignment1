@@ -3,7 +3,12 @@
      flex-direction: column;
     min-height: 100vh;
 }
-
+.nav label{
+  color:#75d9b1;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease-out;
+}
 #recent-trips{
     color: aliceblue;
     flex-grow: 1;
