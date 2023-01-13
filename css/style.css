@@ -7,6 +7,30 @@ body{
     width: auto;
     margin: 0;
 }
+.header {
+  background: linear-gradient(180deg, black, #114455);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0,0,0,0.25);
+  color: #55ab88;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-wrap:wrap;
+  width: 100%;
+  top: 0;
+  opacity: 0.95;
+  position: sticky;
+}
+
+.header img{
+  border-radius: 20%;
+  padding: 1%;
+  width: 14%;
+}
+.header img:hover{
+  transform: rotate(360deg);
+  transition-duration: .8s;
+}
 
 nav a {
   text-decoration: none;
@@ -14,21 +38,10 @@ nav a {
   box-shadow: 10px 10px 20px rgba(84, 186, 99, 0.08), 6px 6px 6px rgba(84, 186, 99, 0.002);
   transition: all 0.3s ease-out;
 }
-
-.nav a:hover {
-  color: #c5cae9;
-  transform:scale(1.05);
-}
-
-.header img:hover{
-    transform: rotate(360deg);
-    transition-duration: .8s;
-}
-
-.nav a{
-  color:#75d9b1;
-}
-
+/**
+* This is NOT the navbar, this is the navbar list items.
+*
+**/
 .nav {
   flex:1 1 auto;
   list-style: none;
@@ -37,28 +50,18 @@ nav a {
   justify-content:space-between;
 }
 
+.nav a:hover {
+  color: #c5cae9;
+  transform:scale(1.05);
+}
+.nav a{
+  color:#75d9b1;
+} 
+
 .flex{
     display: flex;
 }
-.header {
-    background: linear-gradient(180deg, black, #114455);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0,0,0,0.25);
-    color: #55ab88;
-    display: flex;
-    flex-direction:row;
-    justify-content:space-evenly;
-    align-items: center;
-    flex-wrap:wrap;
-    width: 100%;
-    top: 0;
-    opacity: 0.95;
-    position: sticky;
-  }
-  .header img{
-    border-radius: 20%;
-    padding: 1%;
-    width: 14%;
-  }
+
   .result-map img{
     width: 70%;
     margin-left: 20%;
@@ -77,4 +80,9 @@ nav a {
   .drop-down-cars li{
     color: #FFF;
     list-style: none;
+  }
+  .drop-down-cars li label{
+    color: #FFF;
+    list-style: none;
+    align-self: center;
   }
