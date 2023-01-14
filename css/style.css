@@ -75,6 +75,33 @@ nav a {
   color:#75d9b1;
 } 
 
+.input_box{
+  outline: 0;
+  border: none;
+  border-bottom: 2px solid;
+  border-color: #55ab88;
+  color: white;
+  width: 50%;
+  padding: 2%;
+  font-size: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-left: 5%;
+}
+
+.range{
+  /* Add your styling here, such as width and height */
+  width: 50%;
+  height: auto;
+  margin-left: 7%;
+  /* Change the cursor color */
+  color: #00d0ff6f;
+}
+
+.range::-webkit-slider-runnable-track {
+  /* Add your styling here, such as background color */
+  background: linear-gradient(to right,  #111133 ,#114455,#116766,#348878,#55ab88);
+}
+
 .flex{
     display: flex;
 }
@@ -103,3 +130,5 @@ nav a {
     list-style: none;
     align-self: center;
   }
+
+ 
