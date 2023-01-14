@@ -44,3 +44,9 @@
 #edit-div:hover{
     color: white;
 }
+a{
+    text-decoration: none;
+}
+#change-pass:hover{
+    color: aliceblue;
+}
