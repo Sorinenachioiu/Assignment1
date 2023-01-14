@@ -99,8 +99,6 @@ nav a {
   width: 50%;
   height: auto;
   margin-left: 7%;
-  /* Change the cursor color */
-  color: #00d0ff6f;
 }
 
 .range::-webkit-slider-runnable-track {
