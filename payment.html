@@ -15,10 +15,12 @@
             <input class="input_box" type="text" name="cardholderName"> 
             <label class="lab" for=""> Card Number: </label> 
             <input class="input_box" type="number" name="cardNumber"> 
-            <label class="lab" for="">CVV: </label> 
-            <input class="input_box" type="number" name="CVV" />
-            <label class="lab" for="">MM/YY: </label> 
-            <input class="input_box" type="datetime" name="CVV" />
+            <div class="lab" id="expiryDateInput">
+                <label class="lab" for="">MM/YY: </label> 
+                <input class="input_box" type="month" name="CVV" />
+                <label class="lab" for="">CVV: </label> 
+                <input class="input_box" type="number" name="CVV" />
+            </div>
             <label class="lab" for="">Billing Address: </label> 
             <input class="input_box" type="text" name="billAddress" />
             <input id="subButSignUp" type="submit" value="Pay" href="index.html" />

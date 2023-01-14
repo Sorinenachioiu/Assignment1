@@ -78,3 +78,7 @@ label {
     text-align: center;
     color: rgb(251, 235, 235);
 }
+
+select option{
+    color: #111133;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Trip</title>
+    <link rel="stylesheet" href="css/addTrip.css">
+</head>
+<body>
+    <div id="tripForm">
+        <form action="index.html">
+            <td><img src="images/logo.jpeg" alt="Tahir Abbas profile picture"></td>
+            <label class="lab" for=""> Start Destination: </label> 
+            <input class="input_box" type="text" name="From">
+            <label class="lab" for=""> End Destination: </label> 
+            <input class="input_box" type="text" name="To" />
+            <label class="lab" for="date">Select a date:</label>
+            <input class="input_box" type="date" id="date" name="date">
+            <label class="lab" for="date">Time of departure:</label>
+            <div class="lab" id="time-input">
+                <label for="hours">Hour</label>
+                <input class="input_box" type="number" id="hour" name="hours" min="0" max="23">
+                <label for="minutes">Minute</label>
+                <input class="input_box" type="number" id="minute" name="minutes" min="0" max="59">
+            </div>
+            <label class="lab" for=""> Frequency per week:</label>
+            <input class="input_box" type="number" min="0" max="7">
+            <input id="subTrip" type="submit" value="Add Trip">
+        </form>
+    </div>
+</body>
+</html>

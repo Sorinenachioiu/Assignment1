@@ -9,7 +9,7 @@ body{
     font-size: 2rem;
 }
 
-#paymentForm{
+#tripForm{
     margin: auto;
     padding-left: 5%;
     padding-right: 5%;
@@ -22,7 +22,7 @@ body{
     box-shadow: 0 10px 20px rgba(161, 161, 161, 0.3), 0 6px 6px rgba(0,0,0,0.3);
 }
 
-#paymentForm form {
+#tripForm form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +39,7 @@ img{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0,0,0,0.3);   
 }
 
-#subButSignUp{
+#subTrip{
     border-style:hidden;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -50,11 +50,11 @@ img{
     border-radius: 15%;
     box-shadow: 0 10px 20px rgba(161, 161, 161, 0.2), 0 6px 6px rgba(0,0,0,0.3);
 }
-#subButSignUp:hover {
+#subTrip:hover {
     background-color: darkblue;
     cursor: pointer;
 }
-#subButSignUp:active {
+#subTrip:active {
     background-color: black;
 }
 
@@ -79,8 +79,7 @@ label {
     color: rgb(251, 235, 235);
 }
 
-
-#expiryDateInput {
+#time-input {
     display: flex;
     align-items: center;
 }
