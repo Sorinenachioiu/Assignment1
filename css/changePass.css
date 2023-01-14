@@ -1,5 +1,13 @@
+body{
+    background:linear-gradient(360deg,#111133, #114455);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-size: 3vw;
+}
 
-#signUpForm{
+#changePassForm{
     margin: auto;
     padding-left: 5%;
     padding-right: 5%;
@@ -12,7 +20,7 @@
     box-shadow: 0 10px 20px rgba(161, 161, 161, 0.3), 0 6px 6px rgba(0,0,0,0.3);
 }
 
-#signUpForm form {
+#changePassForm form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +37,7 @@ img{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0,0,0,0.3);   
 }
 
-#subButSignUp{
+#subButChangePass{
     border-style:hidden;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -40,11 +48,11 @@ img{
     border-radius: 15%;
     box-shadow: 0 10px 20px rgba(161, 161, 161, 0.2), 0 6px 6px rgba(0,0,0,0.3);
 }
-#subButSignUp:hover {
+#subButChangePass:hover {
     background-color: darkblue;
     cursor: pointer;
 }
-#subButSignUp:active {
+#subButChangePass:active {
     background-color: black;
 }
 
