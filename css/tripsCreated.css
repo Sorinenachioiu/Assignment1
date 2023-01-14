@@ -1,34 +1,35 @@
- body{
-     display: flex; 
-     flex-direction: column;
-    min-height: 100vh;
+body{
+    display: flex; 
+    flex-direction: column;
+   min-height: 100vh;
 }
 .nav label{
-  color:#75d9b1;
-  text-decoration: none;
-  display: block;
-  transition: all 0.3s ease-out;
+ color:#75d9b1;
+ text-decoration: none;
+ display: block;
+ transition: all 0.3s ease-out;
 }
 
-#recent-trips{
+
+#created-trips{
     color: aliceblue;
     flex-grow: 1;
     background-color: rgba(250, 235, 215, 0.152);
     border-top-left-radius:5%;
     border-top-right-radius: 5%;
 }
-#recent-trips ul{
+#created-trips ul{
     list-style: none;
     
 }
-#recent-trips ul li{
+#created-trips ul li{
     margin: 2%;
 }
-#recent-trips ul li:hover{
+#created-trips ul li:hover{
   transform: scale(1.15);
   margin-left: 8%;
   color: lightskyblue;
 }
-#recent-trips label{
+#created-trips label{
   font-size: x-large;
 }
