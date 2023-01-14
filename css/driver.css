@@ -1,19 +1,32 @@
-#buttons{
-    background-color: lightblue;
+#buttons {
+    background-color: #2ebaa1;
     display: block;
     height: 10vh;
     width: 50vh;
     font-size: 5vh;
     border-radius: 10%;
     text-align: center;
+    padding-top: 9%;
 }
-form{
-    display: flex;  
+
+#buttons:hover {
+    background-color: #6ad3a9;
+    color: white;
+}
+
+form {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 6vh;
 }
-form a{
+
+form a {
     text-decoration: none;
     color: #114455;
+}
+
+#status {
+    color: rgb(255, 221, 0);
 }

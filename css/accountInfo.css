@@ -1,0 +1,46 @@
+#main-div{
+    margin: 0;
+    padding: 0;
+    border-radius: 3%;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(111, 219, 160, 0.207);
+}
+#main-div ul{
+    color: white;
+    font-size: x-large;
+    list-style: none;
+}
+#main-div ul li{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: black;
+    font-size: large;
+}
+#main-div ul li div{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: black;
+    display: inline;
+}
+#main-div ul li label{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: black;
+    font-size: medium;
+    display: block;
+}
+#data-div{
+    height: 50%;
+}
+
+#edit-div{
+    margin-left: 30%;
+    text-decoration: underline;
+    text-align: end;
+    background-color: aliceblue;
+    width: 50px;
+}
+#edit-div:hover{
+    color: white;
+}
