@@ -18,7 +18,13 @@ window.onload = function(){
     }
     setInterval(() => {
         let elapsed = Math.round((Date.now() - startTime) / 1000);
-        spent.innerHTML = elapsed;
+        let minutes = Math.floor(elapsed/60);
+        let seconds = elapsed%60;
+        if(minutes==0){
+            spent.innerHTML = seconds + " seconds";
+        }
+        else
+        spent.innerHTML = minutes + " minutes, " + seconds + " seconds";
       }, 1000);
 
       

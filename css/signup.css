@@ -87,3 +87,7 @@ label {
 #results ul{
     text-decoration: none;
 }
+
+#results-list{
+    list-style: none;
+}
