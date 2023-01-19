@@ -126,10 +126,17 @@ nav a {
   background-color: #55ab89bb;
   border-top-left-radius: 3%;
   border-top-right-radius: 3%;
-  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  overflow-y: auto;
+  height: 200px;
+  margin-right: 3%;
+  margin-left: 3%;
+  box-sizing: border-box;
 }
 
 .drop-down-cars li {
+  margin-bottom: 3%;
   color: #FFF;
   list-style: none;
 }
@@ -137,5 +144,19 @@ nav a {
 .drop-down-cars li label {
   color: #FFF;
   list-style: none;
-  align-self: center;
+}
+.results-list{
+  margin-bottom: 2%;
+}
+.result{
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-right: 3%;
+  text-decoration: none;
+  border-radius: 3%;
+}
+.result:hover{
+  background-color: rgba(0, 0, 0, 0.25);
+  margin-right: 3%;
+  text-decoration: none;
+  border-radius: 3%;
 }
