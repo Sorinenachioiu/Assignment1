@@ -1,24 +1,33 @@
-var mouseClicks = 0;
-var timeSpent = 0;
-var keyPresses = 0;
-var charsTyped = 0;
-var isSubmitPressed = false;
+var mouseClicks = 0; //the number of mouse Clicks
+var timeSpent = 0; //the time spent on the signup page
+var keyPresses = 0; //the number of keys pressed
+var charsTyped = 0; // the total number of characters typed
+var isSubmitPressed = false; // boolean that keeps track if the submit button was pressed
 /**
  * Once the window has loaded, we run this code:
  */
 window.onload = function () {
+    //make the div that contains the results 
+    //that should be displayed hidden
     var results = document.getElementById("results");
     results.style.visibility = "hidden";
-    const inputs = document.querySelectorAll("input");
-    var form = document.getElementsByTagName("body")[0];
-    var disp = document.getElementById("display");
-    var spent = document.getElementById("timeSpent");
-    var keys = document.getElementById("keyPresses");
-    var chars = document.getElementById("charsTyped");
-    var subBut = document.getElementById("subButSignUp");
-    var startTime = Date.now();
-    var elapsed;
-    let charsTyped = 0;
+    
+    const inputs = document.querySelectorAll("input"); //select all the input boxes 
+    
+    var form = document.getElementsByTagName("body")[0]; //select the body tag
+    var disp = document.getElementById("display"); // select the 
+    var spent = document.getElementById("timeSpent"); // select the id of the element
+                                                      // where we display the spent time
+    var keys = document.getElementById("keyPresses"); // select the id of the element
+                                                      // where we display the number of keys pressed 
+    var chars = document.getElementById("charsTyped"); // select the id of the element
+                                                        // where we display the number of characters typed
+
+    var subBut = document.getElementById("subButSignUp");// select the id of the submit button
+    var startTime = Date.now();//tracks the moment the page was first open 
+    var elapsed; // initialize the variable that tracks the elapsed time spent to complete the form
+    let charsTyped = 0; // the number of chars typed
+    
     var forms = document.getElementById("realForm");
     /**
      * To not refresh the page after the submit button is pressed.
