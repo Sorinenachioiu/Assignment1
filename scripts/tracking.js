@@ -1,14 +1,16 @@
-let mouseClicks =0;
-let timeSpent =0;
-let keyPresses=0;
-let charsTyped =0;
+var mouseClicks = 0;
+var timeSpent = 0;
+let keyPresses = 0;
+let charsTyped = 0;
 
+window.onload = function(){
+    
+    var form = document.getElementsByTagName("body")[0];
+    var disp = document.getElementById("display");
+    
+    form.onclick = function () {
+        mouseClicks++;
+        disp.innerHTML = mouseClicks;
+    }
 
-
-var counterElem = document.getElementById("counter");
-document.addEventListener("click", function() {
-    mouseClicks++;
-    counterElem.innerHTML = mouseClicks;
-});
-
-console.log(mouseClicks);
+}
