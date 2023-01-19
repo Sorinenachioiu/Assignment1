@@ -78,3 +78,12 @@ label {
     text-align: center;
     color: rgb(251, 235, 235);
 }
+
+#results{
+    background-color: rgb(128, 0, 255);
+    color: rgb(222, 247, 37);
+}
+
+#results ul{
+    text-decoration: none;
+}
