@@ -3,11 +3,13 @@ var timeSpent = 0;
 var keyPresses = 0;
 var charsTyped = 0;
 
+
 window.onload = function(){
     var form = document.getElementsByTagName("body")[0];
     var disp = document.getElementById("display");
     var spent = document.getElementById("timeSpent");
-    
+    var keys = document.getElementById("keyPresses");
+    var startTime = Date.now();
 
     var start=Date.now();
     form.onclick = function () {
@@ -15,7 +17,13 @@ window.onload = function(){
         disp.innerHTML = mouseClicks;
     }
     setInterval(() => {
-        let elapsed = Math.round((Date.now() - start) / 1000);
-        spent.innerHTML(elapsed);
+        let elapsed = Math.round((Date.now() - startTime) / 1000);
+        spent.innerHTML = elapsed;
       }, 1000);
+
+      
+    document.addEventListener("keydown", function() {
+        keyPresses++;
+        keys.innerHTML = keyPresses;
+    });
 }
