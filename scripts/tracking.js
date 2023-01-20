@@ -6,7 +6,7 @@ var isSubmitPressed = false; // boolean that keeps track if the submit button wa
 /**
  * Once the window has loaded, we run this code:
  */
-window.onload = function () {
+window.onload = function () { 
     //make the div that contains the results 
     //that should be displayed hidden
     var results = document.getElementById("results");
