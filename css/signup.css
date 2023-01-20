@@ -1,5 +1,5 @@
-body{
-    background:linear-gradient(360deg,#111133, #114455);
+body {
+    background: linear-gradient(360deg, #111133, #114455);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -9,38 +9,63 @@ body{
     font-size: 2rem;
 }
 
-#signUpForm{
+#signUpForm {
     margin: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    background:linear-gradient(#55ab88,#116766);
-    width: 500px;
+    background: linear-gradient(#55ab88, #116766);
+    width: 80%;
     height: 80%;
     text-align: center;
     border-radius: 6%;
-    box-shadow: 0 10px 20px rgba(161, 161, 161, 0.3), 0 6px 6px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 20px rgba(161, 161, 161, 0.3), 0 6px 6px rgba(0, 0, 0, 0.3);
 }
 
 #signUpForm form {
-    display: flex;
+    display: grid;
+    grid-row: 0.5fr 2fr;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-}
- 
-img{
-    width: 40%;
-    height: auto;
-    border-radius: 400%;
-    margin-top: 5%;
-    align-items: center;
-    margin-bottom: 10%;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0,0,0,0.3);   
+    gap: 5%;
 }
 
-#subButSignUp{
-    border-style:hidden;
+#form-main-div {
+    column-span: 2;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    grid-column-gap: 10rem;
+    grid-row-gap: 1rem;
+    /* margin: 0 auto; */
+}
+.form-item{
+    margin: auto;
+    min-width: 0;
+    padding-right: 5%;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.3);
+}
+.logo-pic{
+    grid-column: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subButSignUp {
+    border-style: hidden;
     margin-top: 5%;
     margin-bottom: 5%;
     font-size: 1.6rem;
@@ -48,17 +73,19 @@ img{
     color: rgb(251, 235, 235);
     padding: 10px;
     border-radius: 15%;
-    box-shadow: 0 10px 20px rgba(161, 161, 161, 0.2), 0 6px 6px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 20px rgba(161, 161, 161, 0.2), 0 6px 6px rgba(0, 0, 0, 0.3);
 }
+
 #subButSignUp:hover {
     background-color: darkblue;
     cursor: pointer;
 }
+
 #subButSignUp:active {
     background-color: black;
 }
 
-.input_box{
+.input_box {
     outline: 0;
     border: none;
     border-bottom: 2px solid;
@@ -69,25 +96,39 @@ img{
     font-size: 80%;
     background-color: rgba(0, 0, 0, 0.1);
 }
-
+.selector-box{
+    outline: 0;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: #55ab88;
+    width: 100%;
+    padding: 3%;
+    font-size: 80%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
 label {
+    color: white;
     text-align: center;
 }
 
-.lab{
+.lab {
     text-align: center;
+    margin-left: 80px;
     color: rgb(251, 235, 235);
 }
 
-#results{
+#results {
     background-color: rgb(128, 0, 255);
     color: rgb(222, 247, 37);
 }
 
-#results ul{
+#results ul {
     text-decoration: none;
 }
 
-#results-list{
+#results-list {
     list-style: none;
+}
+.input-check{
+    font-size: 1.5rem;
 }

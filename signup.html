@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,42 +9,93 @@
     <link rel="stylesheet" href="css/signup.css">
     <script src="scripts/tracking.js"></script>
 </head>
+
 <body>
     <div id="signUpForm">
-        <form  id="realForm" action="">
-            <td><img src="images/logo.jpeg" alt="Hike logo"></td>
-            <label class="lab" for=""> <center> User ID*: </center></label> 
-            <input class="input_box" type="text" name="full_name"> 
-            <label class="lab" for=""> <center> Full Name*: </center></label> 
-            <input class="input_box" type="text" name="full_name">
-            <label class="lab" for=""> Gender* </label>
-            <select class="input_box" name="rental-option">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-            </select> 
-            <label class="lab" for=""> <center> Address: </center></label> 
-            <input class="input_box" type="te   xt" name="full_name"> 
-            <label class="lab" for=""> <center> Country*: </center></label> 
-            <input class="input_box" type="text" name="full_name">
-            <label class="lab" for=""> <center> Zip Code: </center></label> 
-            <input class="input_box" type="text" name="full_name">
-            <label class="lab" for=""> Language*: </label>
-            <select class="input_box" name="rental-option">
-                <option value="english">English</option>
-                <option value="dutch">Dutch</option>
-                <option value="romanian">Romanian</option>
-            </select>   
-            <label class="lab" for=""> <center>Email*: </center></label> 
-            <input class="input_box" type="email" name="Email"> 
-            <label class="lab" for="">Password*: </label> 
-            <input class="input_box" type="password" name="password" />
+        <form id="realForm" action="">
             
-            <label class="lab" for="">Confirm Password*: </label> 
-            <input class="input_box" type="password" name="password_confirmation" />
-            
-            <input id="subButSignUp" type="submit" value="Submit" href="index.html" />
-            <div> <label>Note: * is a mandatory field.</label></div>
+
+            <div id="form-main-div">
+                <div class="logo-pic"> <img src="images/logo.jpeg" alt="Hike logo"> </div>
+                <br>
+                <div class="form-item">
+                    <label class="lab" for="">
+                         User ID*:
+                    </label>
+                    <div>
+                        <input class="input_box" type="text" name="full_name">
+                        <div id="user-id" class="input-check">test</div>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label class="lab" for="">
+                        <center> Full Name*: </center>
+                    </label>
+                    <div>
+                        <input class="input_box" type="text" name="full_name">
+                        <div id="full-name">test</div>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label class="lab" for=""> Gender* </label>
+                    <select class="selector-box" name="rental-option">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-item">
+                    <label class="lab" for="">
+                        <center> Address: </center>
+                    </label>
+
+                    <input class="input_box" type="te   xt" name="full_name">
+                    <div>test</div>
+                </div>
+                <div class="form-item">
+                    <label class="lab" for="">
+                        <center> Country*: </center>
+                    </label>
+                    <input class="input_box" type="text" name="full_name">
+                    <div>test</div>
+                </div >
+                <div class="form-item">
+                    <label class="lab" for="">
+                        <center> Zip Code: </center>
+                    </label>
+                    <input class="input_box" type="text" name="full_name">
+                    <div>test</div>
+                </div>
+                <div class="form-item">
+                    <label class="lab" for=""> Language*: </label>
+                    <select class="selector-box" name="rental-option">
+                        <option value="english">English</option>
+                        <option value="dutch">Dutch</option>
+                        <option value="romanian">Romanian</option>
+                    </select>
+                </div>
+                <div class="form-item">
+                    <label class="lab" for="">
+                        <center>Email*: </center>
+                    </label>
+                    <input class="input_box" type="email" name="Email">
+                    <div>test</div>
+                </div>
+                <div class="form-item">
+                    <label class="lab" for="">Password*: </label>
+                    <input class="input_box" type="password" name="password" />
+                    <div>test</div>
+                </div>
+                <div class="form-item">
+                    <label class="lab" for="">Confirm Password*: </label>
+                    <input class="input_box" type="password" name="password_confirmation" />
+                    <div>test</div>
+                </div>
+                <div>
+                    <input id="subButSignUp" type="submit" value="Submit" href="index.html" />
+                </div>
+                <div> <label>Note: * is a mandatory field.</label></div>
+            </div>
         </form>
     </div>
     <div id="results">
@@ -55,4 +107,5 @@
         </ul>
     </div>
 </body>
+
 </html>
